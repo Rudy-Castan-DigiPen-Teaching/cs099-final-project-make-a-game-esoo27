@@ -3,8 +3,8 @@
 // Course     : CS099
 // Spring 2021
 
-let Time_limitS1 = 600;
-let Time_limitS2 = 600;
+let Time_limitS1 = 300;
+let Time_limitS2 = 400;
 let Time_limitS3 = 600;
 
 function Limit_setS1(x, y)
