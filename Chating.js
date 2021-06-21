@@ -3,7 +3,7 @@
 // Course     : CS099
 // Spring 2021
 
-let chatbox_mod = 0;
+let chatbox_mod = 1;
 
 function Chating(x, y, w, h, person, message)
 {
@@ -57,6 +57,7 @@ function Chating(x, y, w, h, person, message)
                 push();
                 stroke('black');
                 fill('black');
+                textSize(18);
                 text(person, x, y - h/4*3 + 2);
                 pop();
             pop();
@@ -64,6 +65,7 @@ function Chating(x, y, w, h, person, message)
             push();
             fill('black');
             textAlign(LEFT, TOP);
+            textSize(12);
             text(message, x - w + 5, y - h/4*3 + 20);
             pop();
         pop();
@@ -97,5 +99,3 @@ function Chating(x, y, w, h, person, message)
     }
     pop();
 }
-
-//Chating(100, 100, 50, 50, 'Test Person', "test message\ntest message\ntest message\ntest message\ntest message\ntest message\ntest message");
