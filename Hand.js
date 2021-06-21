@@ -15,9 +15,9 @@ class Hand
     {
         this.y += random(-1, 1)
 
-        if(this.y == 455 || this.y == 440)
+        if(this.y >= 475 || this.y <= 470)
         {
-            this.y = 450
+            this.y = 472.5
         }else false
     }
 
