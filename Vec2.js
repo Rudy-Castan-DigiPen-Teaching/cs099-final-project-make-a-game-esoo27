@@ -1,3 +1,10 @@
+// Name       : Jonghyeon Lee
+// Assignment : make_a_game
+// Course     : CS099
+// Spring 2021
+
+//Vector
+
 class Vec2{
     constructor(x = 0, y = 0)
     {
