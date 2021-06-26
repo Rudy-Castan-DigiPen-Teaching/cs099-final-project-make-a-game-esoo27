@@ -3,6 +3,8 @@
 // Course     : CS099
 // Spring 2021
 
+//Scene Variables
+
 const MAIN_MENU = 0;
 const HOW_TO_PLAY = 1;
 const SCENE_1 = 2;
@@ -13,7 +15,7 @@ const STAGE_2 = 6;
 const STAGE_3_Intro = 7;
 const STAGE_3 = 8;
 const STAGE_4_Intro = 9;
-const STAGE_4 = 10; //Hidden
+const STAGE_4 = 10;
 const EPILOGUE = 11;
 
 const S1_1F_Map1 = 0;
@@ -59,6 +61,58 @@ const S2_1F_Map20 = 19;
 const S2_Out = 20;
 const S2_Result = 21;
 
-let ScenesNumbers = STAGE_2_Intro;
+const S3_1F_Map1 = 0;
+const S3_1F_Map2 = 1;
+const S3_1F_Map3 = 2;
+const S3_1F_Map4 = 3;
+const S3_1F_Map5 = 4;
+const S3_1F_Map6 = 5;
+const S3_1F_Map7 = 6;
+const S3_1F_Map8 = 7;
+const S3_1F_Map9 = 8;
+const S3_B1F_Map1 = 9;
+const S3_B1F_Map2 = 10;
+const S3_B1F_Map3 = 11;
+const S3_B1F_Map4 = 12;
+const S3_B1F_Map5 = 13;
+const S3_B1F_Map6 = 14;
+const S3_B1F_Map7 = 15;
+const S3_B1F_Map8 = 16;
+const S3_B2F_Map1 = 17;
+const S3_B2F_Map2 = 18;
+const S3_B2F_Map3 = 19;
+const S3_B2F_Map4 = 20;
+const S3_B2F_Map5 = 21;
+const S3_B2F_Map6 = 22;
+const S3_B2F_Map7 = 23;
+const S3_Out = 24;
+const S3_Result = 25;
+
+const S4_1F_Map1 = 0;
+const S4_1F_Map2 = 1;
+const S4_1F_Map3 = 2;
+const S4_1F_Map4 = 3;
+const S4_1F_Map5 = 4;
+const S4_1F_Map6 = 5;
+const S4_1F_Map7 = 6;
+const S4_1F_Map8 = 7;
+const S4_1F_Map9 = 8;
+const S4_1F_Map10 = 9;
+const S4_1F_Map11 = 10;
+const S4_1F_Map12 = 11;
+const S4_1F_Map13 = 12;
+const S4_1F_Map14 = 13;
+const S4_1F_Map15 = 14;
+const S4_1F_Map16 = 15;
+const S4_1F_Map17 = 16;
+const S4_1F_Map18 = 17;
+const S4_1F_Map19 = 18;
+const S4_1F_Map20 = 19;
+const S4_Out = 20;
+const S4_Result = 21;
+
+let ScenesNumbers = MAIN_MENU;
 let S1_Maps = S1_Out;
 let S2_Maps = S2_Out;
+let S3_Maps = S3_Out;
+let S4_Maps = S4_Out;
