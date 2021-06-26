@@ -3,6 +3,8 @@
 // Course     : CS099
 // Spring 2021
 
+//Media
+
 let NightCity;
 let FireDisaster;
 let HandL;
@@ -21,15 +23,43 @@ let IgnitionPoint;
 let DivorceDocument;
 let Picture;
 let Knife;
+let Box;
+let Bowl;
+let Ring;
+let Girl;
+let Diary;
+let Ghost;
+let Noise;
+let Something;
 let S1RPerson1;
 let S1RPerson2;
 let S1RPerson3;
+let S2_R_Object1;
+let S2_R_Object2;
+let S2_R_Object3;
+let S3_R_Object1;
+let S3_R_Object2;
+let S3_R_Object3;
+let S4RPerson1;
 let BuildingCollapse;
 let CollapseBuilding1;
 let CollapseBuilding2;
 let CollapseBuilding3;
 let CollapseBuilding4;
 let CollapseBuildingOut;
+let WasteFactoryView;
+let WasteFactory1;
+let WasteFactory2;
+let WasteFactory3;
+let WasteFactory4;
+let WasteFactoryStair;
+let StrangePlace;
+let StrangePlace1;
+let StrangePlace2;
+let StrangePlace3;
+let StrangePlace4;
+let StrangePlaceView;
+let HowToPlay;
 
 function preload()
 {
@@ -39,25 +69,53 @@ function preload()
     HandR = loadImage('assets/Hand2.png');
     ChatBox = loadImage('assets/ChatBox.png');
     PeopleSearch = loadImage('assets/PeopleSearch.png');
-    BurningHouseView = loadImage('assets/BurningHouseView.jpg');
-    BurningHouse1 = loadImage('assets/BurningHouse1.jpg');
-    BurningHouse2 = loadImage('assets/BurningHouse2.jpg');
-    BurningHouse3 = loadImage('assets/BurningHouse3.jpg');
-    BurningHouse4 = loadImage('assets/BurningHouse4.jpg');
     PictureFrame = loadImage('assets/S1Object1.png');
     FootPrint = loadImage('assets/S1Object2.png');
     IgnitionPoint = loadImage('assets/S1Object3.png');
     DivorceDocument = loadImage('assets/S1Object4.png');
     Picture = loadImage('assets/S1Object5.png');
     Knife = loadImage('assets/S1Object6.png');
+    Box = loadImage('assets/S2Object2.png');
+    Bowl = loadImage('assets/S2Object6.png');
+    Ring = loadImage('assets/S2ObjectSP.png');
+    Girl = loadImage('assets/S3Object1.png');
+    Diary = loadImage('assets/S3Object2.png');
+    Ghost = loadImage('assets/S3Object3.png');
+    Noise = loadImage('assets/S3Object4.png');
+    Something = loadImage('assets/S3ObjectSP.png');
     S1RPerson1 = loadImage('assets/S1RescuePerson1.png');
     S1RPerson2 = loadImage('assets/S1RescuePerson2.png');
     S1RPerson3 = loadImage('assets/S1RescuePerson3.png');
+    S2_R_Object1 = loadImage('assets/S2RescueObject1.png');
+    S2_R_Object2 = loadImage('assets/S2RescueObject2.png');
+    S2_R_Object3 = loadImage('assets/S2RescueObject3.png');
+    S3_R_Object1 = loadImage('assets/S3RescueObject1.png');
+    S3_R_Object2 = loadImage('assets/S3RescueObject2.png');
+    S3_R_Object3 = loadImage('assets/S3RescueObject3.png');
+    S4RPerson1 = loadImage('assets/S4RescuePerson.png');
     AnswerButton = loadImage('assets/AnswerButton.png');
+    BurningHouseView = loadImage('assets/BurningHouseView.jpg');
+    BurningHouse1 = loadImage('assets/BurningHouse1.jpg');
+    BurningHouse2 = loadImage('assets/BurningHouse2.jpg');
+    BurningHouse3 = loadImage('assets/BurningHouse3.jpg');
+    BurningHouse4 = loadImage('assets/BurningHouse4.jpg');
     BuildingCollapse = loadImage('assets/BuildingCollapse.jpg');
     CollapseBuilding1 = loadImage('assets/CollapseBuilding1.jpg');
     CollapseBuilding2 = loadImage('assets/CollapseBuilding2.jpg');
     CollapseBuilding3 = loadImage('assets/CollapseBuilding3.jpg');
     CollapseBuilding4 = loadImage('assets/CollapseBuilding4.jpg');
     CollapseBuildingOut = loadImage('assets/CollapseBuildingOut.jpg');
+    WasteFactoryView = loadImage('assets/WasteFactoryView.jpg');
+    WasteFactory1 = loadImage('assets/WasteFactory1.jpg');
+    WasteFactory2 = loadImage('assets/WasteFactory2.jpg');
+    WasteFactory3 = loadImage('assets/WasteFactory3.jpg');
+    WasteFactory4 = loadImage('assets/WasteFactory4.jpg');
+    WasteFactoryStair = loadImage('assets/WasteFactoryStair.jpg');
+    StrangePlace = loadImage('assets/StrangePlace.jpg');
+    StrangePlace1 = loadImage('assets/StrangePlace1.jpg');
+    StrangePlace2 = loadImage('assets/StrangePlace2.jpg');
+    StrangePlace3 = loadImage('assets/StrangePlace3.jpg');
+    StrangePlace4 = loadImage('assets/StrangePlace4.jpg');
+    StrangePlaceView = loadImage('assets/StrangePlaceView.jpg');
+    HowToPlay = loadImage('UI.png');
 }
