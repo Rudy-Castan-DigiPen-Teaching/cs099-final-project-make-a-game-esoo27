@@ -82,8 +82,7 @@
 >#### It is defined in the form 'Class [Name],' and uses the 'constructor' method inside the class to create and initialize the class-generated objects.<br/>It is used to obtain 'this' value within the class.<br/>A special method named 'constructor' can exist in only one class.<br/>We can then declare additional methods in the form '[name] ()'.<br/>And when We use methods, We can use them in the '[class].[name] ()' format.
 >## -Example
 >#### line 6 ~ line 31 in Hand.js<br/>Create a class to make the hand look like it's moving up and down.
->#### <pre><code>class Hand<br/>{<br/>    constructor(x, y)<br/>    {<br/>        this.x = x;<br/>        this.y = y;<br/>    }<br/><br/>    update()<br/>    {<br/>        this.y += random(-1, 1)<br/><br/>        if(this.y >= 475 || this.y <= 470)<br/>        {<br/>            this.y = 472.5<br/>        }else false<br/>    }<br/><br/>    draw()<br/>    {<br/>        const Hand_sizeW = 200;<br/>        const Hand_sizeH = 180;<br/>        image(HandL, this.x - 200, this.y, Hand_sizeW, Hand_sizeH);<br/>        image(HandR, this.x + 200, this.y, Hand_sizeW, Hand_sizeH);<br/>    }<br/>
-}</code></pre>
+>#### <pre><code>class Hand<br/>{<br/>    constructor(x, y)<br/>    {<br/>        this.x = x;<br/>        this.y = y;<br/>    }<br/><br/>    update()<br/>    {<br/>        this.y += random(-1, 1)<br/><br/>        if(this.y >= 475 || this.y <= 470)<br/>        {<br/>            this.y = 472.5<br/>        }else false<br/>    }<br/><br/>    draw()<br/>    {<br/>        const Hand_sizeW = 200;<br/>        const Hand_sizeH = 180;<br/>        image(HandL, this.x - 200, this.y, Hand_sizeW, Hand_sizeH);<br/>        image(HandR, this.x + 200, this.y, Hand_sizeW, Hand_sizeH);<br/>    }<br/>}</code></pre>
 
 8.Arrays
 ========
