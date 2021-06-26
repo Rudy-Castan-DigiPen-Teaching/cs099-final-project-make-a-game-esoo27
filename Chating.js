@@ -3,6 +3,8 @@
 // Course     : CS099
 // Spring 2021
 
+//Chat Box Button and Chat Output
+
 let chatbox_mod = 1;
 
 function Chating(x, y, w, h, person, message)
