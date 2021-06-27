@@ -3,7 +3,7 @@
 // Course     : CS099
 // Spring 2021
 
-//Comprehensive Sketch -test
+//Comprehensive Sketch
 
 let Hand_twice;
 let explosion = []
