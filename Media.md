@@ -39,3 +39,5 @@ Image
 >## flickr
 >### BuildingCollapse.jpg = https://www.flickr.com/photos/hoppenbrouwers/26178955446/
 >##### Creative Commons
+
+>### The rest of the images are all drawn by me.
