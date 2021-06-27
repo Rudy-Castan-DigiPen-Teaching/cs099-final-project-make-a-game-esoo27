@@ -2,6 +2,7 @@
 ============
 cs099-final-project-make-a-game-esoo27 created by GitHub Classroom<br/>
 This is my first p5.js Game Project<br/>
+You can play the game [Here](https://rudy-castan-digipen-teaching.github.io/cs099-final-project-make-a-game-esoo27/index.html)<br/>
 
 MarkDown
 --------
