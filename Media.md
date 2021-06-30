@@ -38,6 +38,6 @@ Image
 
 >## flickr
 >### BuildingCollapse.jpg = https://www.flickr.com/photos/hoppenbrouwers/26178955446/
->##### Creative Commons
+>##### Creative Commons<br/>Attribution-NonCommercial-NoDerivs 2.0 일반 (CC BY-NC-ND 2.0)
 
 >### The rest of the images are all drawn by me.
